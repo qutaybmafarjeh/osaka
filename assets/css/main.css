@@ -5,6 +5,9 @@
 body{
     font-family: var(--primaryFont);
 }
+.text__primary{
+    color: var(--primaryColor);
+}
 .navbar-nav .nav-item .nav-link{
     color: white;
 }
@@ -20,4 +23,7 @@ color: var(--primaryColor);
 }
 .hero a{
     color: var(--primaryColor);
+}
+.about{
+    background-image: url(./../image/about/light.jpg);
 }
