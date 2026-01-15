@@ -1,0 +1,16 @@
+:root{
+    --primaryColor:#b2335f;
+    --primaryFont:"Open Sans", sans-serif;
+}
+body{
+    font-family: var(--primaryFont);
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar .navbar-brand{
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+color: var(--primaryColor);
+}
