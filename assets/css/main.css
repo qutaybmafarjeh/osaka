@@ -17,6 +17,9 @@ body{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
 color: var(--primaryColor);
 }
+.navbar .collapse .nav-item:hover a{
+    color: var(--primaryColor);
+}
 .hero{
    background-image: url(./../image/hero/bg-hero.jpg);
    background-size: cover;
@@ -26,4 +29,16 @@ color: var(--primaryColor);
 }
 .about{
     background-image: url(./../image/about/light.jpg);
+}
+.portfolio .nav-tabs .nav-item.show .nav-link,.portfolio .nav-tabs .nav-link.active{
+    color: var(--primaryColor);
+}
+.portfolio .nav-link{
+color:black ;
+}
+.portfolio .nav-tabs .nav-link{
+    border: none;
+}
+.portfolio .nav-tabs{
+    border: none;
 }
