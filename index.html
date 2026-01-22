@@ -15,49 +15,52 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg position-fixed w-100 bg-black">
-            <div class="container-fluid">
-                <a class="navbar-brand text-uppercase" href="#">osaka</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item text-uppercase text-uppercase text-uppercase">
-                            <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">about</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">Services</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">portfolio</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">price</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">client</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">blog</a>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <a class="nav-link fw-bold" href="#">contact</a>
-                        </li>
+
+    <nav class="navbar navbar-expand-lg position-sticky top-0 w-100 bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="#">osaka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item text-uppercase text-uppercase text-uppercase">
+                        <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">about</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">Services</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">portfolio</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">price</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">client</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">blog</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link fw-bold" href="#">contact</a>
+                    </li>
 
 
-                    </ul>
+                </ul>
 
-                </div>
+
             </div>
-        </nav>
-    </header>
+
+        </div>
+
+    </nav>
+
     <main>
         <section class="hero vh-100">
             <div class="container h-100">
@@ -66,7 +69,11 @@
                     <p class="text-white">Developer, Graphics & Web Design</p>
                     <a href="#" class="text-decoration-none">View Portfolio</a>
                 </div>
+
+
             </div>
+            </div>
+
         </section>
 
 
@@ -80,7 +87,7 @@
                     <div class="col-md-4">
                         <img src="./assets/image/about/me.jpg" class="img-fluid" />
                     </div>
-                    <div class="col-md-7 offset-1">
+                    <div class="col-md-7 offset-md-1">
                         <div class="about-details d-flex flex-column gap-3 justify-content-center h-100">
                             <h3 class="fs-2 fw-bold">Robin Steel</h3>
                             <h4 class="text__primary fs-3">Creative UI/UX Designer, Developer.</h4>
@@ -101,19 +108,21 @@
 
         <section class="portfolio py-5">
             <div class="title text-center mb-5">
-                <h1>Portfolio</h1>
+                <h1 class="fs-1 fw-bold text-uppercase text-black">Portfolio</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <nav>
                 <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                    <button class="nav-link fw-bold active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
-                        type="button" role="tab" aria-controls="nav-all" aria-selected="true">ALL</button>
+                    <button class="nav-link fw-bold active" id="nav-all-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all"
+                        aria-selected="true">ALL</button>
                     <button class="nav-link fw-bold" id="nav-dev-tab" data-bs-toggle="tab" data-bs-target="#nav-dev"
                         type="button" role="tab" aria-controls="nav-dev" aria-selected="false">DEV</button>
                     <button class="nav-link fw-bold" id="nav-web-tab" data-bs-toggle="tab" data-bs-target="#nav-web"
                         type="button" role="tab" aria-controls="nav-web" aria-selected="false">WEB</button>
-                    <button class="nav-link fw-bold" id="nav-design-tab" data-bs-toggle="tab" data-bs-target="#nav-design"
-                        type="button" role="tab" aria-controls="nav-design" aria-selected="false">DESIGN</button>
+                    <button class="nav-link fw-bold" id="nav-design-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-design" type="button" role="tab" aria-controls="nav-design"
+                        aria-selected="false">DESIGN</button>
                 </div>
             </nav>
             <div class="tab-content mt-4" id="nav-tabContent">
@@ -209,7 +218,77 @@
             </div>
         </section>
 
-
+        <section class="slider py-5">
+            <div class="title text-center pb-4">
+                <h2 class="text-uppercase fs-1 fw-bold text-black">Testimonials</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider/1.jpg" class="slider-image d-flex m-auto pb-5 mb-5 rounded-circle " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Olivia Nealon</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam libero consectetur itaque, veniam, officiis quibusdam impedit eum cum earum voluptatum, nemo deserunt? Rem atque voluptatibus rerum at quam!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider/2.jpg" class="slider-image d-flex m-auto pb-5 mb-5 rounded-circle " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Maxwell Deo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam libero consectetur itaque, veniam, officiis quibusdam impedit eum cum earum voluptatum, nemo deserunt? Rem atque voluptatibus rerum at quam!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider/3.jpg" class="slider-image d-flex m-auto pb-5 mb-5 rounded-circle " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Robin Perty</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam libero consectetur itaque, veniam, officiis quibusdam impedit eum cum earum voluptatum, nemo deserunt? Rem atque voluptatibus rerum at quam!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider/4.jpg" class="slider-image d-flex m-auto pb-5 mb-5 rounded-circle " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Emilie Chapin</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam libero consectetur itaque, veniam, officiis quibusdam impedit eum cum earum voluptatum, nemo deserunt? Rem atque voluptatibus rerum at quam!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider/5.jpg" class="slider-image d-flex m-auto pb-5 mb-5 rounded-circle " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Adirran Hasson</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam libero consectetur itaque, veniam, officiis quibusdam impedit eum cum earum voluptatum, nemo deserunt? Rem atque voluptatibus rerum at quam!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
 
 

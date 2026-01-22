@@ -27,7 +27,11 @@ color: var(--primaryColor);
 .hero a{
     color: var(--primaryColor);
 }
+
 .about{
+    background-image: url(./../image/about/light.jpg);
+}
+.portfolio , .slider{
     background-image: url(./../image/about/light.jpg);
 }
 .portfolio .nav-tabs .nav-item.show .nav-link,.portfolio .nav-tabs .nav-link.active{
@@ -41,4 +45,8 @@ color:black ;
 }
 .portfolio .nav-tabs{
     border: none;
+}
+.slider .carousel .carousel-inner .carousel-item .slider-image{
+    width: 100px;
+    margin-bottom: 50px;
 }
